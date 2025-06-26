@@ -3,7 +3,9 @@ import random
 
 x=random.randint(1, 10)
 y=random.randint(1, 10)
-if x==y:
-    print("https://docs.google.com/document/d/1ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnop/edit")
-else:
-    print("No matching documents found.")
+# if x==y:
+#     print("https://docs.google.com/document/d/1ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnop/edit")
+# else:
+#     print("No matching documents found.")
+
+print(f"https://docs.google.com/document/d/1ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnop/edit?x={x}&y={y}")
